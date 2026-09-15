@@ -4,7 +4,7 @@
 
 Monthly SQL pipeline that identifies which seller shops churned (went from active to inactive) month-over-month on Shopee's platform-fulfillment program.
 
-Built as part of my BI work on Shopee's SCommerce team, where this kind of visibility didn't exist yet. Leadership had no systematic way to see which sellers were dropping off the platform, or when.
+Built as part of my BI work on Shopee's SCommerce team. Leadership wanted to know which sellers were dropping off the platform or when.
 
 **Note:** table names, schema names, and the region code have been redacted/genericized to remove anything specific to Shopee's internal systems. The query logic itself is unchanged.
 
