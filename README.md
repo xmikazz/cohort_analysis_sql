@@ -1,5 +1,3 @@
-# cohort_analysis_sql
-
 # Shopee Seller Churn Detection
 
 Monthly SQL pipeline that identifies which seller shops churned (went from active to inactive) month-over-month on Shopee's platform-fulfillment program.
