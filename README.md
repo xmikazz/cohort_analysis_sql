@@ -4,9 +4,7 @@ Monthly SQL pipeline that identifies which seller shops churned (went from activ
 
 Built as part of my BI work on Shopee's SCommerce team. Leadership wanted to know which sellers were dropping off the platform or when.
 
-**Note:** table names, schema names, and the region code have been redacted/genericized to remove anything specific to Shopee's internal systems. The query logic itself is unchanged.
-
-## What it does
+**Note:** table names, schema names, and the region code have been redacted/genericized to remove anything specific to Shopee's internal systems. 
 
 1. **Defines "active shop"** by cross-checking two signals: live inventory status (in stock, listed, sellable) *and* actual order activity that month. Using inventory data alone missed edge cases. Some shops had stale inventory flags but were still fulfilling real orders, or vice versa.
 2. **Builds a month-over-month shop universe**, tagging every shop with whether it was active this month *and* whether it was active the month before.
